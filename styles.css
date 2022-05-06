@@ -22,3 +22,33 @@ input{
     border: 3px solid #ccc;
     outline: none !important;
 }
+
+/* validation styles */
+
+/* grab any input with class of valid */
+input.valid {
+    border-color: #36cc36;
+}
+
+input.invalid {
+    border-color: orange;
+}
+
+/* show field descriptions under input fields until input is valid */
+input + p {
+    font-family: Arial, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 10px;
+    color: orange;
+    opacity: 0;
+    height: 0;
+}
+
+/* style p when forms fields are invalid */
+input.invalid + p {
+    opacity: 1;
+    height: auto;
+    margin-bottom: 20px;
+}

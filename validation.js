@@ -8,7 +8,7 @@
 // 1. create object to store all regular expressions for each input field (name property)
 // 2. attach an event listener to each input field (keyup event)
 // 3. find which regex is associated to each field, test against appropriate regex with validate function
-// 4. add feedback to the user to indicate if input is valid/invalid (css styles)
+// 4. add feedback to the user to indicate if input is valid/invalid (add validation styles to css)
 
 // validation script here
 const inputs = document.querySelectorAll('input');
