@@ -4,10 +4,11 @@
 // var reg2 = new RegExp(/[a-z]/,'i');
 
 // PROJECT TASK - create regular expression to match criteria in fields
-// user feedback - JS will listen to typing event, look for matches for patterns in input fields, validate it
-// 1. attach an event listener to each input field (keyup event)
-// 2. find which regex is associated to each field, test against appropriate regex
-// 3. 
+// JS will listen to typing event, look for matches for patterns in input fields, validate it, provide feedback to user
+// 1. create object to store all regular expressions for each input field (name property)
+// 2. attach an event listener to each input field (keyup event)
+// 3. find which regex is associated to each field, test against appropriate regex with validate function
+// 4. add feedback to the user to indicate if input is valid/invalid (css styles)
 
 // validation script here
 const inputs = document.querySelectorAll('input');
